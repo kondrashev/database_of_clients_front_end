@@ -1,0 +1,66 @@
+.clientForm{
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    position: fixed;
+    top: 100px;
+    left: 450px;
+    background-color: blue;
+    border: 2px solid #ffffff;
+}
+.clientForm .inp-1{
+    margin-top: 50px;
+    margin-left: 47px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.clientForm .inp-2,
+.clientForm .inp-3
+{
+    margin-top: 30px;
+    margin-left: 47px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.clientForm h{
+    font-size: 25px;
+    position: relative;
+    width:200px;
+    height:20px;
+    top: 20px;
+    left: 110px;
+    color: #ffffff;
+}
+.clientForm .btn-1{
+    width: 48px;
+    height: 23px;
+    position: fixed;
+    left: 802px;
+    background-image: url(../image/sprite.png);
+    background-position: -383px -181px;
+}
+.clientForm .btn-2{
+    width: 100px;
+    height: 40px;
+    position:relative;
+    top: 40px;
+    left: 148px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.clientForm input:hover{
+    box-shadow: 0 0 10px black;
+}
+.clientForm .btn-1:hover{
+    box-shadow: 0 0 10px black;
+}
+.clientForm .btn-2:hover{
+    box-shadow: 0 0 10px black;
+}

@@ -1,0 +1,44 @@
+.tb-1{
+    position: relative;
+    top:10px;
+    left:40px;
+}
+.tb-1 th {
+    background-color: rgb(208, 226, 43);
+    color:#ffffff;
+    font-size: 22px;
+}
+.tb-1 td {
+    font-size: 20px;
+}
+
+.tb-1 th,
+.tb-1 td{
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.tb-1 th,
+.tb-1 td
+{
+    border: 3px solid blue;
+    width: 200px;
+    color:#ffffff;
+}
+
+.tb-1 .th-1,
+.tb-1 .td-1{
+    width:90px;
+}
+
+.tb-1 columns:nth-child(1){
+    width:50px;
+}
+
+.tb-1 td:hover {
+    background-color: goldenrod;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+}
